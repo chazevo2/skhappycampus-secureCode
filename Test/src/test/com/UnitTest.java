@@ -13,6 +13,8 @@ public class UnitTest {
 		// ¿¡½Ã : "576532"
 		String secureCode2 = Utility.getSecureCode(6);
 		System.out.println(secureCode2);
+		String secureCode3 = Utility.getSecureCode2(6);
+		System.out.println(secureCode3);
 		
 	}
 
